@@ -64,7 +64,20 @@ h1 {
     cursor: pointer;
 }
 
-.btn:nth-child(5) {
+.reseaux {
+    display: flex;
+    position: relative;
+    left: 10vw;
+    padding-top: 20px;
+}
+
+.reseaux a {
+    font-size: 2.4em;
+    color: #000;
+    margin: 0 10px 0 0;
+}
+
+.btnCv {
     margin-left: 10vw;
     margin-right: 10px;
     background: var(--black);
